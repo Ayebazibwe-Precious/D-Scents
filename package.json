@@ -1,0 +1,13 @@
+{
+  "name": "d-scents-fragrances",
+  "version": "1.0.0",
+  "description": "D-Scents and Fragrances - luxury fragrance catalog website (static HTML/CSS/JS, no build step)",
+  "private": true,
+  "scripts": {
+    "start": "http-server . -p 8080 -c-1",
+    "admin": "node admin/server.js"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

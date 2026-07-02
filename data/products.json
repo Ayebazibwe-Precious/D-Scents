@@ -1,0 +1,907 @@
+{
+  "categories": [
+    {
+      "id": "perfume-sprays",
+      "name": "Perfume Sprays",
+      "group": "personal"
+    },
+    {
+      "id": "body-oil-perfumes",
+      "name": "Body Oil Perfumes",
+      "group": "personal"
+    },
+    {
+      "id": "body-mists",
+      "name": "Body Mists",
+      "group": "personal"
+    },
+    {
+      "id": "body-splashes",
+      "name": "Body Splashes",
+      "group": "personal"
+    },
+    {
+      "id": "roll-on-perfumes",
+      "name": "Roll-On Perfumes",
+      "group": "personal"
+    },
+    {
+      "id": "eau-de-parfum",
+      "name": "Eau de Parfum",
+      "group": "personal"
+    },
+    {
+      "id": "eau-de-toilette",
+      "name": "Eau de Toilette",
+      "group": "personal"
+    },
+    {
+      "id": "hair-perfumes",
+      "name": "Hair Perfumes",
+      "group": "personal"
+    },
+    {
+      "id": "gift-sets",
+      "name": "Gift Sets",
+      "group": "personal"
+    },
+    {
+      "id": "room-sprays",
+      "name": "Room Sprays",
+      "group": "home"
+    },
+    {
+      "id": "bathroom-sprays",
+      "name": "Bathroom & Toilet Sprays",
+      "group": "home"
+    },
+    {
+      "id": "air-fresheners",
+      "name": "Air Fresheners",
+      "group": "home"
+    },
+    {
+      "id": "linen-sprays",
+      "name": "Linen Sprays",
+      "group": "home"
+    },
+    {
+      "id": "reed-diffusers",
+      "name": "Reed Diffusers",
+      "group": "home"
+    },
+    {
+      "id": "aroma-oils",
+      "name": "Aroma Oils",
+      "group": "home"
+    },
+    {
+      "id": "essential-oils",
+      "name": "Essential Oils",
+      "group": "home"
+    },
+    {
+      "id": "scented-candles",
+      "name": "Scented Candles",
+      "group": "home"
+    },
+    {
+      "id": "wax-melts",
+      "name": "Wax Melts",
+      "group": "home"
+    },
+    {
+      "id": "car-fresheners",
+      "name": "Car Fresheners",
+      "group": "home"
+    },
+    {
+      "id": "wardrobe-fresheners",
+      "name": "Wardrobe Fresheners",
+      "group": "home"
+    }
+  ],
+  "products": [
+    {
+      "id": "p001",
+      "name": "Velvet Oud Eau de Parfum",
+      "slug": "velvet-oud-eau-de-parfum",
+      "category": "eau-de-parfum",
+      "price": 85000,
+      "currency": "UGX",
+      "image": "images/products/p001.svg",
+      "gallery": [
+        "images/products/p001.svg"
+      ],
+      "shortDescription": "A rich, smoky oud wrapped in velvety amber warmth.",
+      "description": "Velvet Oud is a bold, opulent fragrance built around a smoky oud heart, softened with amber and a whisper of vanilla. Designed for evenings that call for presence.",
+      "fragranceFamily": "Woody Oriental",
+      "notes": {
+        "top": [
+          "Saffron",
+          "Bergamot"
+        ],
+        "middle": [
+          "Oud",
+          "Rose"
+        ],
+        "base": [
+          "Amber",
+          "Vanilla",
+          "Musk"
+        ]
+      },
+      "sizes": [
+        "30ml",
+        "50ml",
+        "100ml"
+      ],
+      "longevity": "8-10 hours",
+      "recommendedUse": "Evening wear, special occasions",
+      "bestSeller": true,
+      "newArrival": false,
+      "inStock": true,
+      "rating": 4.8
+    },
+    {
+      "id": "p002",
+      "name": "Citrus Bloom Eau de Toilette",
+      "slug": "citrus-bloom-eau-de-toilette",
+      "category": "eau-de-toilette",
+      "price": 62000,
+      "currency": "UGX",
+      "image": "images/products/p002.svg",
+      "gallery": [
+        "images/products/p002.svg"
+      ],
+      "shortDescription": "Bright citrus and white florals for everyday freshness.",
+      "description": "A crisp, uplifting blend of citrus and light florals, perfect for daytime wear. Clean, fresh, and effortlessly elegant.",
+      "fragranceFamily": "Citrus Floral",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Bergamot",
+          "Mandarin"
+        ],
+        "middle": [
+          "Jasmine",
+          "Neroli"
+        ],
+        "base": [
+          "White Musk",
+          "Cedarwood"
+        ]
+      },
+      "sizes": [
+        "30ml",
+        "50ml",
+        "100ml"
+      ],
+      "longevity": "5-7 hours",
+      "recommendedUse": "Daily wear, office, daytime",
+      "bestSeller": false,
+      "newArrival": true,
+      "inStock": true,
+      "rating": 4.5
+    },
+    {
+      "id": "p003",
+      "name": "Golden Amber Body Oil",
+      "slug": "golden-amber-body-oil",
+      "category": "body-oil-perfumes",
+      "price": 48000,
+      "currency": "UGX",
+      "image": "images/products/p003.svg",
+      "gallery": [
+        "images/products/p003.svg"
+      ],
+      "shortDescription": "Nourishing scented body oil with warm amber and vanilla.",
+      "description": "A silky body oil that hydrates skin while leaving a soft, long-lasting amber-vanilla trail. Perfect for layering under your favourite perfume.",
+      "fragranceFamily": "Oriental Gourmand",
+      "notes": {
+        "top": [
+          "Orange Blossom"
+        ],
+        "middle": [
+          "Amber",
+          "Tonka Bean"
+        ],
+        "base": [
+          "Vanilla",
+          "Sandalwood"
+        ]
+      },
+      "sizes": [
+        "100ml",
+        "200ml"
+      ],
+      "longevity": "4-6 hours",
+      "recommendedUse": "Daily moisturising and light scent layering",
+      "bestSeller": true,
+      "newArrival": false,
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "id": "p004",
+      "name": "Coconut Breeze Body Mist",
+      "slug": "coconut-breeze-body-mist",
+      "category": "body-mists",
+      "price": 32000,
+      "currency": "UGX",
+      "image": "images/products/p004.svg",
+      "gallery": [
+        "images/products/p004.svg"
+      ],
+      "shortDescription": "Light tropical mist with coconut and creamy vanilla.",
+      "description": "A refreshing, light-as-air mist that captures the feeling of a beach holiday — coconut, vanilla, and a hint of tropical floral.",
+      "fragranceFamily": "Fresh Gourmand",
+      "notes": {
+        "top": [
+          "Coconut Water",
+          "Pineapple"
+        ],
+        "middle": [
+          "Tiare Flower"
+        ],
+        "base": [
+          "Vanilla",
+          "Musk"
+        ]
+      },
+      "sizes": [
+        "100ml",
+        "250ml"
+      ],
+      "longevity": "2-4 hours",
+      "recommendedUse": "All-day refresh, after shower",
+      "bestSeller": false,
+      "newArrival": true,
+      "inStock": true,
+      "rating": 4.3
+    },
+    {
+      "id": "p005",
+      "name": "Rose Quartz Body Splash",
+      "slug": "rose-quartz-body-splash",
+      "category": "body-splashes",
+      "price": 28000,
+      "currency": "UGX",
+      "image": "images/products/p005.svg",
+      "gallery": [
+        "images/products/p005.svg"
+      ],
+      "shortDescription": "Delicate rose and peony splash for a soft, romantic glow.",
+      "description": "A gentle, romantic splash featuring layers of rose and peony, finished with a soft musk base. Light enough for everyday wear.",
+      "fragranceFamily": "Floral",
+      "notes": {
+        "top": [
+          "Pink Pepper"
+        ],
+        "middle": [
+          "Rose",
+          "Peony"
+        ],
+        "base": [
+          "White Musk"
+        ]
+      },
+      "sizes": [
+        "150ml",
+        "300ml"
+      ],
+      "longevity": "3-5 hours",
+      "recommendedUse": "Daily wear, layering",
+      "bestSeller": false,
+      "newArrival": false,
+      "inStock": true,
+      "rating": 4.4
+    },
+    {
+      "id": "p006",
+      "name": "Midnight Sandalwood Roll-On",
+      "slug": "midnight-sandalwood-roll-on",
+      "category": "roll-on-perfumes",
+      "price": 25000,
+      "currency": "UGX",
+      "image": "images/products/p006.svg",
+      "gallery": [
+        "images/products/p006.svg"
+      ],
+      "shortDescription": "Travel-friendly roll-on with creamy sandalwood and spice.",
+      "description": "A concentrated, portable roll-on perfect for touch-ups on the go. Warm sandalwood with a touch of spice for a grounded, comforting scent.",
+      "fragranceFamily": "Woody",
+      "notes": {
+        "top": [
+          "Cardamom"
+        ],
+        "middle": [
+          "Sandalwood"
+        ],
+        "base": [
+          "Musk",
+          "Amber"
+        ]
+      },
+      "sizes": [
+        "10ml"
+      ],
+      "longevity": "4-6 hours",
+      "recommendedUse": "On-the-go touch-ups, travel",
+      "bestSeller": false,
+      "newArrival": false,
+      "inStock": true,
+      "rating": 4.2
+    },
+    {
+      "id": "p007",
+      "name": "Silk Jasmine Hair Perfume",
+      "slug": "silk-jasmine-hair-perfume",
+      "category": "hair-perfumes",
+      "price": 35000,
+      "currency": "UGX",
+      "image": "images/products/p007.svg",
+      "gallery": [
+        "images/products/p007.svg"
+      ],
+      "shortDescription": "Lightweight hair mist infused with jasmine and silk musk.",
+      "description": "Formulated specifically for hair, this lightweight mist leaves a delicate jasmine trail without weighing strands down.",
+      "fragranceFamily": "Floral Musk",
+      "notes": {
+        "top": [
+          "Bergamot"
+        ],
+        "middle": [
+          "Jasmine"
+        ],
+        "base": [
+          "Silk Musk"
+        ]
+      },
+      "sizes": [
+        "50ml"
+      ],
+      "longevity": "3-5 hours",
+      "recommendedUse": "Hair refresh, styling finish",
+      "bestSeller": false,
+      "newArrival": true,
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "id": "p008",
+      "name": "Signature Discovery Gift Set",
+      "slug": "signature-discovery-gift-set",
+      "category": "gift-sets",
+      "price": 120000,
+      "currency": "UGX",
+      "image": "images/products/p008.svg",
+      "gallery": [
+        "images/products/p008.svg"
+      ],
+      "shortDescription": "A curated set of 5 best-selling miniature fragrances.",
+      "description": "The perfect introduction to our signature scents — five 10ml bottles spanning floral, woody, and oriental families, beautifully boxed.",
+      "fragranceFamily": "Mixed",
+      "notes": {
+        "top": [
+          "Varies by bottle"
+        ],
+        "middle": [
+          "Varies by bottle"
+        ],
+        "base": [
+          "Varies by bottle"
+        ]
+      },
+      "sizes": [
+        "5 x 10ml"
+      ],
+      "longevity": "Varies",
+      "recommendedUse": "Gifting, discovery, travel",
+      "bestSeller": true,
+      "newArrival": false,
+      "inStock": true,
+      "rating": 4.9
+    },
+    {
+      "id": "p009",
+      "name": "Lavender Calm Room Spray",
+      "slug": "lavender-calm-room-spray",
+      "category": "room-sprays",
+      "price": 30000,
+      "currency": "UGX",
+      "image": "images/products/p009.svg",
+      "gallery": [
+        "images/products/p009.svg"
+      ],
+      "shortDescription": "Calming lavender room spray for a peaceful atmosphere.",
+      "description": "A soothing blend of lavender and chamomile designed to instantly calm any room — ideal for bedrooms and relaxation spaces.",
+      "fragranceFamily": "Aromatic",
+      "notes": {
+        "top": [
+          "Lavender"
+        ],
+        "middle": [
+          "Chamomile"
+        ],
+        "base": [
+          "Soft Musk"
+        ]
+      },
+      "sizes": [
+        "200ml"
+      ],
+      "longevity": "1-2 hours (ambient)",
+      "recommendedUse": "Bedrooms, relaxation spaces",
+      "bestSeller": false,
+      "newArrival": false,
+      "inStock": true,
+      "rating": 4.5
+    },
+    {
+      "id": "p010",
+      "name": "Fresh Linen Bathroom Spray",
+      "slug": "fresh-linen-bathroom-spray",
+      "category": "bathroom-sprays",
+      "price": 22000,
+      "currency": "UGX",
+      "image": "images/products/p010.svg",
+      "gallery": [
+        "images/products/p010.svg"
+      ],
+      "shortDescription": "Crisp clean-linen scent for instantly fresher bathrooms.",
+      "description": "A quick-acting bathroom spray with a crisp, soap-clean linen scent that neutralises odours instantly.",
+      "fragranceFamily": "Clean/Fresh",
+      "notes": {
+        "top": [
+          "Ozone Accord"
+        ],
+        "middle": [
+          "Cotton Flower"
+        ],
+        "base": [
+          "White Musk"
+        ]
+      },
+      "sizes": [
+        "150ml"
+      ],
+      "longevity": "30-60 minutes (ambient)",
+      "recommendedUse": "Bathrooms, small spaces",
+      "bestSeller": false,
+      "newArrival": false,
+      "inStock": true,
+      "rating": 4.1
+    },
+    {
+      "id": "p011",
+      "name": "Vanilla Sky Air Freshener",
+      "slug": "vanilla-sky-air-freshener",
+      "category": "air-fresheners",
+      "price": 18000,
+      "currency": "UGX",
+      "image": "images/products/p011.svg",
+      "gallery": [
+        "images/products/p011.svg"
+      ],
+      "shortDescription": "Sweet vanilla air freshener for warm, cosy spaces.",
+      "description": "A comforting vanilla-forward air freshener that fills any room with warmth — great for living rooms and offices.",
+      "fragranceFamily": "Gourmand",
+      "notes": {
+        "top": [
+          "Caramel"
+        ],
+        "middle": [
+          "Vanilla"
+        ],
+        "base": [
+          "Tonka Bean"
+        ]
+      },
+      "sizes": [
+        "250ml"
+      ],
+      "longevity": "1-2 hours (ambient)",
+      "recommendedUse": "Living rooms, offices",
+      "bestSeller": false,
+      "newArrival": true,
+      "inStock": true,
+      "rating": 4.3
+    },
+    {
+      "id": "p012",
+      "name": "White Musk Linen Spray",
+      "slug": "white-musk-linen-spray",
+      "category": "linen-sprays",
+      "price": 26000,
+      "currency": "UGX",
+      "image": "images/products/p012.svg",
+      "gallery": [
+        "images/products/p012.svg"
+      ],
+      "shortDescription": "Gentle musk linen spray for fresh-smelling fabrics.",
+      "description": "Spritz onto sheets, curtains, or clothes for a soft, clean musk scent that lingers gently on fabric.",
+      "fragranceFamily": "Musk",
+      "notes": {
+        "top": [
+          "Aldehydes"
+        ],
+        "middle": [
+          "Iris"
+        ],
+        "base": [
+          "White Musk"
+        ]
+      },
+      "sizes": [
+        "200ml"
+      ],
+      "longevity": "Several hours on fabric",
+      "recommendedUse": "Bedding, curtains, clothing",
+      "bestSeller": false,
+      "newArrival": false,
+      "inStock": true,
+      "rating": 4.4
+    },
+    {
+      "id": "p013",
+      "name": "Sandalwood & Amber Reed Diffuser",
+      "slug": "sandalwood-amber-reed-diffuser",
+      "category": "reed-diffusers",
+      "price": 55000,
+      "currency": "UGX",
+      "image": "images/products/p013.svg",
+      "gallery": [
+        "images/products/p013.svg"
+      ],
+      "shortDescription": "Long-lasting reed diffuser with warm sandalwood and amber.",
+      "description": "A continuous, low-maintenance way to scent your home. Warm sandalwood and amber notes diffuse steadily for weeks.",
+      "fragranceFamily": "Woody Amber",
+      "notes": {
+        "top": [
+          "Cedar"
+        ],
+        "middle": [
+          "Sandalwood"
+        ],
+        "base": [
+          "Amber"
+        ]
+      },
+      "sizes": [
+        "150ml + reeds"
+      ],
+      "longevity": "6-8 weeks",
+      "recommendedUse": "Living rooms, entryways",
+      "bestSeller": true,
+      "newArrival": false,
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "id": "p014",
+      "name": "Eucalyptus Mint Aroma Oil",
+      "slug": "eucalyptus-mint-aroma-oil",
+      "category": "aroma-oils",
+      "price": 24000,
+      "currency": "UGX",
+      "image": "images/products/p014.svg",
+      "gallery": [
+        "images/products/p014.svg"
+      ],
+      "shortDescription": "Invigorating eucalyptus and mint blend for oil burners.",
+      "description": "A refreshing, invigorating aroma oil designed for diffusers and burners — eucalyptus and mint for clarity and focus.",
+      "fragranceFamily": "Fresh Herbal",
+      "notes": {
+        "top": [
+          "Eucalyptus"
+        ],
+        "middle": [
+          "Peppermint"
+        ],
+        "base": [
+          "Cedarwood"
+        ]
+      },
+      "sizes": [
+        "30ml"
+      ],
+      "longevity": "Depends on diffuser use",
+      "recommendedUse": "Diffusers, oil burners",
+      "bestSeller": false,
+      "newArrival": false,
+      "inStock": true,
+      "rating": 4.2
+    },
+    {
+      "id": "p015",
+      "name": "Pure Lavender Essential Oil",
+      "slug": "pure-lavender-essential-oil",
+      "category": "essential-oils",
+      "price": 38000,
+      "currency": "UGX",
+      "image": "images/products/p015.svg",
+      "gallery": [
+        "images/products/p015.svg"
+      ],
+      "shortDescription": "100% pure lavender essential oil for wellness and home use.",
+      "description": "Premium-grade, undiluted lavender essential oil — versatile for diffusing, massage blends, or adding to unscented lotions.",
+      "fragranceFamily": "Pure Botanical",
+      "notes": {
+        "top": [
+          "Lavender"
+        ],
+        "middle": [
+          "Lavender"
+        ],
+        "base": [
+          "Lavender"
+        ]
+      },
+      "sizes": [
+        "10ml",
+        "30ml"
+      ],
+      "longevity": "Depends on use",
+      "recommendedUse": "Diffusing, massage blends, DIY skincare",
+      "bestSeller": false,
+      "newArrival": true,
+      "inStock": true,
+      "rating": 4.8
+    },
+    {
+      "id": "p016",
+      "name": "Amber Noir Scented Candle",
+      "slug": "amber-noir-scented-candle",
+      "category": "scented-candles",
+      "price": 45000,
+      "currency": "UGX",
+      "image": "images/products/p016.svg",
+      "gallery": [
+        "images/products/p016.svg"
+      ],
+      "shortDescription": "Hand-poured soy candle with deep amber and spice.",
+      "description": "A hand-poured soy candle with a slow, even burn — rich amber and warm spice fill the room for a cosy, upscale atmosphere.",
+      "fragranceFamily": "Amber Spice",
+      "notes": {
+        "top": [
+          "Clove"
+        ],
+        "middle": [
+          "Amber"
+        ],
+        "base": [
+          "Vanilla",
+          "Musk"
+        ]
+      },
+      "sizes": [
+        "220g (40hr burn)"
+      ],
+      "longevity": "40 hour burn time",
+      "recommendedUse": "Living spaces, evenings",
+      "bestSeller": true,
+      "newArrival": false,
+      "inStock": true,
+      "rating": 4.9
+    },
+    {
+      "id": "p017",
+      "name": "Citrus Grove Wax Melts",
+      "slug": "citrus-grove-wax-melts",
+      "category": "wax-melts",
+      "price": 20000,
+      "currency": "UGX",
+      "image": "images/products/p017.svg",
+      "gallery": [
+        "images/products/p017.svg"
+      ],
+      "shortDescription": "Set of 6 zesty citrus wax melts for warmers.",
+      "description": "Six generously scented wax melts bursting with orange, grapefruit, and a touch of mint — perfect for wax warmers.",
+      "fragranceFamily": "Citrus",
+      "notes": {
+        "top": [
+          "Orange",
+          "Grapefruit"
+        ],
+        "middle": [
+          "Mint"
+        ],
+        "base": [
+          "Light Musk"
+        ]
+      },
+      "sizes": [
+        "6-piece pack"
+      ],
+      "longevity": "8-10 hours per melt",
+      "recommendedUse": "Wax warmers",
+      "bestSeller": false,
+      "newArrival": false,
+      "inStock": true,
+      "rating": 4.3
+    },
+    {
+      "id": "p018",
+      "name": "Black Orchid Car Freshener",
+      "slug": "black-orchid-car-freshener",
+      "category": "car-fresheners",
+      "price": 15000,
+      "currency": "UGX",
+      "image": "images/products/p018.svg",
+      "gallery": [
+        "images/products/p018.svg"
+      ],
+      "shortDescription": "Hanging car diffuser with dark floral elegance.",
+      "description": "A sleek hanging diffuser bringing a touch of dark floral luxury to your daily commute. Long-lasting, adjustable scent strength.",
+      "fragranceFamily": "Dark Floral",
+      "notes": {
+        "top": [
+          "Black Currant"
+        ],
+        "middle": [
+          "Orchid"
+        ],
+        "base": [
+          "Patchouli"
+        ]
+      },
+      "sizes": [
+        "1 hanging diffuser"
+      ],
+      "longevity": "4-6 weeks",
+      "recommendedUse": "Car interiors",
+      "bestSeller": false,
+      "newArrival": true,
+      "inStock": true,
+      "rating": 4
+    },
+    {
+      "id": "p019",
+      "name": "Cedar Bloom Wardrobe Freshener",
+      "slug": "cedar-bloom-wardrobe-freshener",
+      "category": "wardrobe-fresheners",
+      "price": 19000,
+      "currency": "UGX",
+      "image": "images/products/p019.svg",
+      "gallery": [
+        "images/products/p019.svg"
+      ],
+      "shortDescription": "Cedar-infused sachets that protect and scent fabrics.",
+      "description": "Natural cedar sachets infused with a soft floral top note — keep wardrobes smelling fresh while naturally deterring moths.",
+      "fragranceFamily": "Woody Floral",
+      "notes": {
+        "top": [
+          "Soft Floral"
+        ],
+        "middle": [
+          "Cedarwood"
+        ],
+        "base": [
+          "Cedarwood"
+        ]
+      },
+      "sizes": [
+        "3-sachet pack"
+      ],
+      "longevity": "8-12 weeks",
+      "recommendedUse": "Wardrobes, drawers",
+      "bestSeller": false,
+      "newArrival": false,
+      "inStock": true,
+      "rating": 4.4
+    },
+    {
+      "id": "p020",
+      "name": "Imperial Leather Eau de Parfum",
+      "slug": "imperial-leather-eau-de-parfum",
+      "category": "eau-de-parfum",
+      "price": 92000,
+      "currency": "UGX",
+      "image": "images/products/p020.svg",
+      "gallery": [
+        "images/products/p020.svg"
+      ],
+      "shortDescription": "Bold leather and tobacco for a commanding presence.",
+      "description": "A confident, masculine-leaning composition built on rich leather and tobacco, balanced with a touch of spice. Long-lasting and unforgettable.",
+      "fragranceFamily": "Leather Tobacco",
+      "notes": {
+        "top": [
+          "Black Pepper"
+        ],
+        "middle": [
+          "Leather",
+          "Tobacco"
+        ],
+        "base": [
+          "Oud",
+          "Amber"
+        ]
+      },
+      "sizes": [
+        "50ml",
+        "100ml"
+      ],
+      "longevity": "10-12 hours",
+      "recommendedUse": "Evening wear, formal occasions",
+      "bestSeller": true,
+      "newArrival": false,
+      "inStock": true,
+      "rating": 4.9
+    },
+    {
+      "id": "p021",
+      "name": "Peach Blossom Body Mist",
+      "slug": "peach-blossom-body-mist",
+      "category": "body-mists",
+      "price": 30000,
+      "currency": "UGX",
+      "image": "images/products/p021.svg",
+      "gallery": [
+        "images/products/p021.svg"
+      ],
+      "shortDescription": "Juicy peach and soft blossom for a youthful, fresh feel.",
+      "description": "A playful, juicy mist combining ripe peach with delicate blossom notes — light, fresh, and perfect for daily wear.",
+      "fragranceFamily": "Fruity Floral",
+      "notes": {
+        "top": [
+          "Peach"
+        ],
+        "middle": [
+          "Cherry Blossom"
+        ],
+        "base": [
+          "Soft Musk"
+        ]
+      },
+      "sizes": [
+        "100ml",
+        "250ml"
+      ],
+      "longevity": "2-4 hours",
+      "recommendedUse": "Everyday wear, warm weather",
+      "bestSeller": false,
+      "newArrival": true,
+      "inStock": true,
+      "rating": 4.2
+    },
+    {
+      "id": "p022",
+      "name": "Ocean Mineral Eau de Toilette",
+      "slug": "ocean-mineral-eau-de-toilette",
+      "category": "eau-de-toilette",
+      "price": 58000,
+      "currency": "UGX",
+      "image": "images/products/p022.svg",
+      "gallery": [
+        "images/products/p022.svg"
+      ],
+      "shortDescription": "Crisp aquatic scent inspired by sea breeze and minerals.",
+      "description": "A clean, energising aquatic fragrance that captures the feeling of standing by the ocean — fresh, mineral, and invigorating.",
+      "fragranceFamily": "Aquatic",
+      "notes": {
+        "top": [
+          "Sea Notes",
+          "Grapefruit"
+        ],
+        "middle": [
+          "Marine Accord"
+        ],
+        "base": [
+          "Driftwood",
+          "Musk"
+        ]
+      },
+      "sizes": [
+        "50ml",
+        "100ml"
+      ],
+      "longevity": "5-6 hours",
+      "recommendedUse": "Daytime, summer, sport",
+      "bestSeller": false,
+      "newArrival": false,
+      "inStock": true,
+      "rating": 4.3
+    }
+  ]
+}

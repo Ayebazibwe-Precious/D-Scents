@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop All Fragrances | D-Scents and Fragrances</title>
+  <meta name="description" content="Browse our full collection of luxury perfumes, body care scents, and home fragrances. Filter by category, search, and order easily via WhatsApp or email.">
+  <link rel="canonical" href="https://www.d-scentsandfragrances.com/shop.html">
+
+  <meta property="og:title" content="Shop All Fragrances | D-Scents and Fragrances">
+  <meta property="og:description" content="Browse our full collection of luxury perfumes, body care scents, and home fragrances.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.d-scentsandfragrances.com/shop.html">
+
+  <link rel="icon" type="image/png" href="images/logo/logo-favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .shop-layout {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: var(--space-lg);
+      align-items: start;
+    }
+    @media (max-width: 900px) {
+      .shop-layout { grid-template-columns: 1fr; }
+    }
+    .filter-panel {
+      background: var(--color-cream);
+      border-radius: var(--radius-md);
+      padding: var(--space-md);
+      position: sticky;
+      top: 90px;
+    }
+    @media (max-width: 900px) {
+      .filter-panel { position: static; }
+    }
+    .filter-panel h3 {
+      font-size: 0.95rem;
+      margin-bottom: var(--space-sm);
+    }
+    .filter-group {
+      margin-bottom: var(--space-md);
+    }
+    .filter-group-title {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--color-charcoal-soft);
+      margin-bottom: 0.6rem;
+      font-weight: 500;
+    }
+    .filter-option {
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+      padding: 0.4rem 0;
+      font-size: 0.88rem;
+      cursor: pointer;
+      color: var(--color-charcoal-soft);
+    }
+    .filter-option input {
+      accent-color: var(--color-gold-dark);
+      width: 16px;
+      height: 16px;
+    }
+    .filter-option.active-radio {
+      color: var(--color-charcoal);
+      font-weight: 500;
+    }
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: var(--space-md);
+    }
+    .search-wrap {
+      position: relative;
+      flex: 1;
+      min-width: 220px;
+      max-width: 380px;
+    }
+    .search-wrap input {
+      width: 100%;
+      padding: 0.75rem 1rem 0.75rem 2.4rem;
+      border-radius: 999px;
+      border: 1.5px solid var(--color-border);
+      font-family: inherit;
+      font-size: 0.9rem;
+    }
+    .search-wrap input:focus {
+      border-color: var(--color-gold);
+      outline: none;
+    }
+    .search-icon {
+      position: absolute;
+      left: 0.9rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--color-charcoal-soft);
+      pointer-events: none;
+    }
+    .sort-select {
+      padding: 0.7rem 1rem;
+      border-radius: 999px;
+      border: 1.5px solid var(--color-border);
+      font-family: inherit;
+      font-size: 0.88rem;
+      background: var(--color-white);
+    }
+    .active-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: var(--space-sm);
+    }
+    .filter-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--color-cream-deep);
+      color: var(--color-charcoal);
+      padding: 0.35rem 0.8rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+    }
+    .filter-chip button {
+      color: var(--color-charcoal-soft);
+      font-size: 0.95rem;
+      line-height: 1;
+    }
+    .results-count {
+      font-size: 0.85rem;
+      color: var(--color-charcoal-soft);
+    }
+    .mobile-filter-toggle {
+      display: none;
+    }
+    @media (max-width: 900px) {
+      .mobile-filter-toggle {
+        display: inline-flex;
+      }
+      .filter-panel {
+        display: none;
+      }
+      .filter-panel.open {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="brand" aria-label="D-Scents and Fragrances — Home">
+          <img src="images/logo/logo-icon.png" alt="D-Scents and Fragrances logo" class="brand-logo" width="40" height="40">
+          <span class="brand-wordmark">
+            <span class="brand-wordmark-top">D-Scents</span>
+            <span class="brand-wordmark-sub">and Fragrances</span>
+          </span>
+        </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <div class="nav-item-dropdown">
+          <button class="nav-dropdown-toggle" aria-label="Show shop categories" aria-expanded="false">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <a href="shop.html" class="active">Shop</a>
+          <div class="nav-dropdown-panel">
+            <a href="shop.html?category=eau-de-parfum">Perfumes</a>
+            <a href="shop.html?group=personal">Body Care Scents</a>
+            <a href="shop.html?group=home">Home Fragrances</a>
+            <a href="shop.html?filter=bestsellers">Best Sellers</a>
+          </div>
+        </div>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#" data-whatsapp-general class="btn btn-whatsapp btn-sm" aria-label="Order via WhatsApp">
+          <span aria-hidden="true">💬</span><span class="btn-text-label">WhatsApp</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="mobile-menu" aria-label="Mobile navigation">
+      <a href="index.html">Home</a>
+      <div class="mobile-menu-item">
+        <div class="mobile-menu-row">
+          <a href="shop.html" class="active">Shop</a>
+          <button class="mobile-dropdown-toggle" aria-label="Show shop categories" aria-expanded="false">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+        </div>
+        <div class="mobile-submenu">
+          <a href="shop.html?category=eau-de-parfum">Perfumes</a>
+          <a href="shop.html?group=personal">Body Care Scents</a>
+          <a href="shop.html?group=home">Home Fragrances</a>
+          <a href="shop.html?filter=bestsellers">Best Sellers</a>
+        </div>
+      </div>
+      <a href="about.html">About</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="page-header">
+      <div class="container">
+        <h1>Shop Our Collection</h1>
+        <p>Browse luxury perfumes, body care scents, and home fragrances — all ready to order via WhatsApp or email.</p>
+      </div>
+    </div>
+
+    <section class="section" style="padding-top: var(--space-lg);">
+      <div class="container">
+        <button class="btn btn-secondary btn-sm mobile-filter-toggle mb-md" id="mobile-filter-toggle" aria-expanded="false" aria-controls="filter-panel">
+          Filters &amp; Categories
+        </button>
+
+        <div class="shop-layout">
+          <!-- ============ FILTER PANEL ============ -->
+          <aside class="filter-panel" id="filter-panel">
+            <h3>Filter Products</h3>
+
+            <div class="filter-group">
+              <div class="filter-group-title">Quick Filters</div>
+              <label class="filter-option">
+                <input type="radio" name="quickFilter" value="all" checked> All Products
+              </label>
+              <label class="filter-option">
+                <input type="radio" name="quickFilter" value="bestsellers"> Best Sellers
+              </label>
+              <label class="filter-option">
+                <input type="radio" name="quickFilter" value="new"> New Arrivals
+              </label>
+            </div>
+
+            <div class="filter-group">
+              <div class="filter-group-title">Personal Fragrances</div>
+              <div id="personal-categories"></div>
+            </div>
+
+            <div class="filter-group">
+              <div class="filter-group-title">Home Fragrances</div>
+              <div id="home-categories"></div>
+            </div>
+
+            <button class="btn btn-secondary btn-sm btn-block" id="clear-filters">Clear All Filters</button>
+          </aside>
+
+          <!-- ============ PRODUCT GRID + TOOLBAR ============ -->
+          <div>
+            <div class="toolbar">
+              <div class="search-wrap">
+                <span class="search-icon" aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </span>
+                <label for="search-input" class="visually-hidden">Search products</label>
+                <input type="text" id="search-input" placeholder="Search fragrances..." autocomplete="off">
+              </div>
+
+              <div class="flex gap-sm" style="align-items:center;">
+                <label for="sort-select" class="visually-hidden">Sort products</label>
+                <select id="sort-select" class="sort-select" aria-label="Sort products">
+                  <option value="featured">Sort: Featured</option>
+                  <option value="price-asc">Price: Low to High</option>
+                  <option value="price-desc">Price: High to Low</option>
+                  <option value="name-asc">Name: A to Z</option>
+                  <option value="rating-desc">Rating: High to Low</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="active-filters" id="active-filters"></div>
+            <p class="results-count mb-md" id="results-count" role="status" aria-live="polite"></p>
+
+            <div class="grid grid-3" id="product-grid">
+              <div class="skeleton" style="aspect-ratio: 4/5.6;"></div>
+              <div class="skeleton" style="aspect-ratio: 4/5.6;"></div>
+              <div class="skeleton" style="aspect-ratio: 4/5.6;"></div>
+              <div class="skeleton" style="aspect-ratio: 4/5.6;"></div>
+              <div class="skeleton" style="aspect-ratio: 4/5.6;"></div>
+              <div class="skeleton" style="aspect-ratio: 4/5.6;"></div>
+            </div>
+
+            <div class="text-center mt-lg">
+              <button class="btn btn-secondary" id="load-more-btn" style="display:none;">Load More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="brand" style="margin-bottom:0.75rem;">
+            <img src="images/logo/logo-icon.png" alt="D-Scents and Fragrances logo" class="brand-logo" width="40" height="40">
+            <span class="brand-wordmark">
+              <span class="brand-wordmark-top">D-Scents</span>
+              <span class="brand-wordmark-sub">and Fragrances</span>
+            </span>
+          </div>
+          <p>A premium fragrance boutique offering luxury perfumes, body care scents, and home fragrances — ordered simply through WhatsApp or email.</p>
+          <div class="social-icons">
+            <a href="#" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="TikTok">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="shop.html?group=personal">Personal Fragrances</a></li>
+            <li><a href="shop.html?group=home">Home Fragrances</a></li>
+            <li><a href="shop.html?filter=bestsellers">Best Sellers</a></li>
+            <li><a href="shop.html?category=gift-sets">Gift Sets</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Get In Touch</h4>
+          <ul>
+            <li><a href="#" data-whatsapp-general>WhatsApp: <span data-phone-display></span></a></li>
+            <li><a href="#" data-email-general><span data-email-display></span></a></li>
+            <li><span style="font-size:0.88rem;">Kampala, Uganda</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; <span id="footer-year"></span> D-Scents and Fragrances. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" data-whatsapp-general class="float-whatsapp" aria-label="Chat with us on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.85.5 3.58 1.38 5.07L2 22l4.93-1.38C8.42 21.5 10.15 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.62 0-3.13-.43-4.45-1.18l-.32-.19-3.32.93.94-3.32-.2-.34A8 8 0 1 1 12 20z"/><path d="M16.5 13.6c-.25-.13-1.47-.72-1.7-.8-.23-.08-.4-.13-.57.13-.17.25-.65.8-.8.97-.15.17-.3.18-.55.06-.25-.12-1.05-.39-2-1.24-.74-.66-1.24-1.47-1.38-1.72-.15-.25-.02-.39.12-.52.13-.13.3-.34.45-.5.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.5-.08-.13-.6-1.44-.82-1.97-.22-.52-.45-.45-.62-.46-.15-.01-.34-.01-.52-.01-.18 0-.47.07-.72.32-.25.25-.95.93-.95 2.27 0 1.34.97 2.63 1.1 2.81.13.18 1.85 2.82 4.5 3.84 2.65 1.02 2.65.68 3.13.64.47-.04 1.47-.6 1.68-1.18.2-.58.2-1.08.14-1.18-.06-.1-.23-.16-.48-.28z"/></svg>
+  </a>
+
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/shop.js"></script>
+</body>
+</html>
