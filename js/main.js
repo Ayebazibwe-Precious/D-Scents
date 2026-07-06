@@ -8,6 +8,8 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   initMobileNav();
+  initNavDropdown();
+  initMobileSubmenu();
   setFooterYear();
   wireGeneralContactLinks();
   observeReveal(document);
@@ -23,12 +25,63 @@ function initMobileNav() {
     toggle.setAttribute("aria-expanded", String(isOpen));
   });
 
-  // Close mobile menu when a link is tapped
+  // Close mobile menu when a link is tapped (but not the submenu toggle itself)
   menu.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
       menu.classList.remove("open");
       toggle.setAttribute("aria-expanded", "false");
     });
+  });
+}
+
+/**
+ * Desktop "Shop" dropdown: a chevron button right before the "Shop" link
+ * toggles a small panel with category shortcuts (Perfumes, Body Care
+ * Scents, Home Fragrances, Best Sellers). Tapping the chevron again, or
+ * clicking anywhere outside, closes it. The "Shop" text itself stays a
+ * normal link and is unaffected by the dropdown.
+ */
+function initNavDropdown() {
+  const dropdownToggle = document.querySelector(".nav-dropdown-toggle");
+  const dropdownPanel = document.querySelector(".nav-dropdown-panel");
+  if (!dropdownToggle || !dropdownPanel) return;
+
+  dropdownToggle.addEventListener("click", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const isOpen = dropdownPanel.classList.toggle("open");
+    dropdownToggle.setAttribute("aria-expanded", String(isOpen));
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!dropdownPanel.contains(e.target) && e.target !== dropdownToggle) {
+      dropdownPanel.classList.remove("open");
+      dropdownToggle.setAttribute("aria-expanded", "false");
+    }
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      dropdownPanel.classList.remove("open");
+      dropdownToggle.setAttribute("aria-expanded", "false");
+    }
+  });
+}
+
+/**
+ * Mobile equivalent of the Shop dropdown: a chevron next to "Shop" inside
+ * the mobile menu expands/collapses an indented list of category links.
+ */
+function initMobileSubmenu() {
+  const submenuToggle = document.querySelector(".mobile-dropdown-toggle");
+  const submenu = document.querySelector(".mobile-submenu");
+  if (!submenuToggle || !submenu) return;
+
+  submenuToggle.addEventListener("click", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const isOpen = submenu.classList.toggle("open");
+    submenuToggle.setAttribute("aria-expanded", String(isOpen));
   });
 }
 
