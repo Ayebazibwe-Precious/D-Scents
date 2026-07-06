@@ -109,9 +109,9 @@
       "category": "eau-de-parfum",
       "price": 85000,
       "currency": "UGX",
-      "image": "images/products/p001.svg",
+      "image": "images/products/p001.png",
       "gallery": [
-        "images/products/p001.svg"
+        "images/products/p001.png"
       ],
       "shortDescription": "A rich, smoky oud wrapped in velvety amber warmth.",
       "description": "Velvet Oud is a bold, opulent fragrance built around a smoky oud heart, softened with amber and a whisper of vanilla. Designed for evenings that call for presence.",
@@ -150,9 +150,9 @@
       "category": "eau-de-toilette",
       "price": 62000,
       "currency": "UGX",
-      "image": "images/products/p002.svg",
+      "image": "images/products/p002.png",
       "gallery": [
-        "images/products/p002.svg"
+        "images/products/p002.png"
       ],
       "shortDescription": "Bright citrus and white florals for everyday freshness.",
       "description": "A crisp, uplifting blend of citrus and light florals, perfect for daytime wear. Clean, fresh, and effortlessly elegant.",
@@ -191,9 +191,9 @@
       "category": "body-oil-perfumes",
       "price": 48000,
       "currency": "UGX",
-      "image": "images/products/p003.svg",
+      "image": "images/products/p003.png",
       "gallery": [
-        "images/products/p003.svg"
+        "images/products/p003.png"
       ],
       "shortDescription": "Nourishing scented body oil with warm amber and vanilla.",
       "description": "A silky body oil that hydrates skin while leaving a soft, long-lasting amber-vanilla trail. Perfect for layering under your favourite perfume.",
@@ -229,9 +229,9 @@
       "category": "body-mists",
       "price": 32000,
       "currency": "UGX",
-      "image": "images/products/p004.svg",
+      "image": "images/products/p004.png",
       "gallery": [
-        "images/products/p004.svg"
+        "images/products/p004.png"
       ],
       "shortDescription": "Light tropical mist with coconut and creamy vanilla.",
       "description": "A refreshing, light-as-air mist that captures the feeling of a beach holiday — coconut, vanilla, and a hint of tropical floral.",
@@ -267,9 +267,9 @@
       "category": "body-splashes",
       "price": 28000,
       "currency": "UGX",
-      "image": "images/products/p005.svg",
+      "image": "images/products/p005.png",
       "gallery": [
-        "images/products/p005.svg"
+        "images/products/p005.png"
       ],
       "shortDescription": "Delicate rose and peony splash for a soft, romantic glow.",
       "description": "A gentle, romantic splash featuring layers of rose and peony, finished with a soft musk base. Light enough for everyday wear.",
@@ -304,9 +304,9 @@
       "category": "roll-on-perfumes",
       "price": 25000,
       "currency": "UGX",
-      "image": "images/products/p006.svg",
+      "image": "images/products/p006.png",
       "gallery": [
-        "images/products/p006.svg"
+        "images/products/p006.png"
       ],
       "shortDescription": "Travel-friendly roll-on with creamy sandalwood and spice.",
       "description": "A concentrated, portable roll-on perfect for touch-ups on the go. Warm sandalwood with a touch of spice for a grounded, comforting scent.",
@@ -340,9 +340,9 @@
       "category": "hair-perfumes",
       "price": 35000,
       "currency": "UGX",
-      "image": "images/products/p007.svg",
+      "image": "images/products/p007.png",
       "gallery": [
-        "images/products/p007.svg"
+        "images/products/p007.png"
       ],
       "shortDescription": "Lightweight hair mist infused with jasmine and silk musk.",
       "description": "Formulated specifically for hair, this lightweight mist leaves a delicate jasmine trail without weighing strands down.",
@@ -375,9 +375,9 @@
       "category": "gift-sets",
       "price": 120000,
       "currency": "UGX",
-      "image": "images/products/p008.svg",
+      "image": "images/products/p008.png",
       "gallery": [
-        "images/products/p008.svg"
+        "images/products/p008.png"
       ],
       "shortDescription": "A curated set of 5 best-selling miniature fragrances.",
       "description": "The perfect introduction to our signature scents — five 10ml bottles spanning floral, woody, and oriental families, beautifully boxed.",
@@ -410,9 +410,9 @@
       "category": "room-sprays",
       "price": 30000,
       "currency": "UGX",
-      "image": "images/products/p009.svg",
+      "image": "images/products/p009.png",
       "gallery": [
-        "images/products/p009.svg"
+        "images/products/p009.png"
       ],
       "shortDescription": "Calming lavender room spray for a peaceful atmosphere.",
       "description": "A soothing blend of lavender and chamomile designed to instantly calm any room — ideal for bedrooms and relaxation spaces.",
@@ -445,9 +445,9 @@
       "category": "bathroom-sprays",
       "price": 22000,
       "currency": "UGX",
-      "image": "images/products/p010.svg",
+      "image": "images/products/p010.png",
       "gallery": [
-        "images/products/p010.svg"
+        "images/products/p010.png"
       ],
       "shortDescription": "Crisp clean-linen scent for instantly fresher bathrooms.",
       "description": "A quick-acting bathroom spray with a crisp, soap-clean linen scent that neutralises odours instantly.",
@@ -480,9 +480,9 @@
       "category": "air-fresheners",
       "price": 18000,
       "currency": "UGX",
-      "image": "images/products/p011.svg",
+      "image": "images/products/p011.png",
       "gallery": [
-        "images/products/p011.svg"
+        "images/products/p011.png"
       ],
       "shortDescription": "Sweet vanilla air freshener for warm, cosy spaces.",
       "description": "A comforting vanilla-forward air freshener that fills any room with warmth — great for living rooms and offices.",
@@ -515,9 +515,9 @@
       "category": "linen-sprays",
       "price": 26000,
       "currency": "UGX",
-      "image": "images/products/p012.svg",
+      "image": "images/products/p012.png",
       "gallery": [
-        "images/products/p012.svg"
+        "images/products/p012.png"
       ],
       "shortDescription": "Gentle musk linen spray for fresh-smelling fabrics.",
       "description": "Spritz onto sheets, curtains, or clothes for a soft, clean musk scent that lingers gently on fabric.",
@@ -550,9 +550,9 @@
       "category": "reed-diffusers",
       "price": 55000,
       "currency": "UGX",
-      "image": "images/products/p013.svg",
+      "image": "images/products/p013.png",
       "gallery": [
-        "images/products/p013.svg"
+        "images/products/p013.png"
       ],
       "shortDescription": "Long-lasting reed diffuser with warm sandalwood and amber.",
       "description": "A continuous, low-maintenance way to scent your home. Warm sandalwood and amber notes diffuse steadily for weeks.",
@@ -585,9 +585,9 @@
       "category": "aroma-oils",
       "price": 24000,
       "currency": "UGX",
-      "image": "images/products/p014.svg",
+      "image": "images/products/p014.png",
       "gallery": [
-        "images/products/p014.svg"
+        "images/products/p014.png"
       ],
       "shortDescription": "Invigorating eucalyptus and mint blend for oil burners.",
       "description": "A refreshing, invigorating aroma oil designed for diffusers and burners — eucalyptus and mint for clarity and focus.",
@@ -620,9 +620,9 @@
       "category": "essential-oils",
       "price": 38000,
       "currency": "UGX",
-      "image": "images/products/p015.svg",
+      "image": "images/products/p015.png",
       "gallery": [
-        "images/products/p015.svg"
+        "images/products/p015.png"
       ],
       "shortDescription": "100% pure lavender essential oil for wellness and home use.",
       "description": "Premium-grade, undiluted lavender essential oil — versatile for diffusing, massage blends, or adding to unscented lotions.",
@@ -656,9 +656,9 @@
       "category": "scented-candles",
       "price": 45000,
       "currency": "UGX",
-      "image": "images/products/p016.svg",
+      "image": "images/products/p016.png",
       "gallery": [
-        "images/products/p016.svg"
+        "images/products/p016.png"
       ],
       "shortDescription": "Hand-poured soy candle with deep amber and spice.",
       "description": "A hand-poured soy candle with a slow, even burn — rich amber and warm spice fill the room for a cosy, upscale atmosphere.",
@@ -692,9 +692,9 @@
       "category": "wax-melts",
       "price": 20000,
       "currency": "UGX",
-      "image": "images/products/p017.svg",
+      "image": "images/products/p017.png",
       "gallery": [
-        "images/products/p017.svg"
+        "images/products/p017.png"
       ],
       "shortDescription": "Set of 6 zesty citrus wax melts for warmers.",
       "description": "Six generously scented wax melts bursting with orange, grapefruit, and a touch of mint — perfect for wax warmers.",
@@ -728,9 +728,9 @@
       "category": "car-fresheners",
       "price": 15000,
       "currency": "UGX",
-      "image": "images/products/p018.svg",
+      "image": "images/products/p018.png",
       "gallery": [
-        "images/products/p018.svg"
+        "images/products/p018.png"
       ],
       "shortDescription": "Hanging car diffuser with dark floral elegance.",
       "description": "A sleek hanging diffuser bringing a touch of dark floral luxury to your daily commute. Long-lasting, adjustable scent strength.",
@@ -763,9 +763,9 @@
       "category": "wardrobe-fresheners",
       "price": 19000,
       "currency": "UGX",
-      "image": "images/products/p019.svg",
+      "image": "images/products/p019.png",
       "gallery": [
-        "images/products/p019.svg"
+        "images/products/p019.png"
       ],
       "shortDescription": "Cedar-infused sachets that protect and scent fabrics.",
       "description": "Natural cedar sachets infused with a soft floral top note — keep wardrobes smelling fresh while naturally deterring moths.",
@@ -798,9 +798,9 @@
       "category": "eau-de-parfum",
       "price": 92000,
       "currency": "UGX",
-      "image": "images/products/p020.svg",
+      "image": "images/products/p020.png",
       "gallery": [
-        "images/products/p020.svg"
+        "images/products/p020.png"
       ],
       "shortDescription": "Bold leather and tobacco for a commanding presence.",
       "description": "A confident, masculine-leaning composition built on rich leather and tobacco, balanced with a touch of spice. Long-lasting and unforgettable.",
@@ -836,9 +836,9 @@
       "category": "body-mists",
       "price": 30000,
       "currency": "UGX",
-      "image": "images/products/p021.svg",
+      "image": "images/products/p021.png",
       "gallery": [
-        "images/products/p021.svg"
+        "images/products/p021.png"
       ],
       "shortDescription": "Juicy peach and soft blossom for a youthful, fresh feel.",
       "description": "A playful, juicy mist combining ripe peach with delicate blossom notes — light, fresh, and perfect for daily wear.",
@@ -872,9 +872,9 @@
       "category": "eau-de-toilette",
       "price": 58000,
       "currency": "UGX",
-      "image": "images/products/p022.svg",
+      "image": "images/products/p022.png",
       "gallery": [
-        "images/products/p022.svg"
+        "images/products/p022.png"
       ],
       "shortDescription": "Crisp aquatic scent inspired by sea breeze and minerals.",
       "description": "A clean, energising aquatic fragrance that captures the feeling of standing by the ocean — fresh, mineral, and invigorating.",
